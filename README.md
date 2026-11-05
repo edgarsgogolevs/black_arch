@@ -15,3 +15,18 @@ To install this theme, simply use the `omarchy-theme-install` command:
 ```sh
 omarchy-theme-install https://github.com/ankur311sudo/black_arch.git
 ```
+
+---
+
+## This fork: BlackWhite Warm
+
+A readability pass over the original palette. It is still black and white at heart, with soft, low-chroma warm accents so terminal output stays easy to read.
+
+- **Terminals** (`colors.toml`, which Omarchy renders into Alacritty/Kitty/Foot/Ghostty, plus the shipped terminal files): off-white `#DCDCDC` text, a visible bright-black `#6E6E6E` for autosuggestions and dim output, and muted red `#E08080`, green `#9DC48A`, sand `#D5D09D`, blue `#9DB2CF`, rose `#C9A3B6`, and teal `#9EC4BE`.
+- **`extras/zed/`**: Zed themes *BlackWhite*, *BlackWhite Warm*, and *BlackWhite Warmer*. `gen.py` regenerates `blackwhite.json`. Symlink that file into `~/.config/zed/themes/`.
+- **`extras/herdr/theme.toml`**: the matching `[theme.custom]` block for herdr.
+- **`extras/scripts/warm_terminals.py`**: rewrites `colors.toml` and the terminal configs from one palette. Run `omarchy theme refresh` afterwards.
+
+```sh
+omarchy-theme-install https://github.com/edgarsgogolevs/black_arch.git
+```

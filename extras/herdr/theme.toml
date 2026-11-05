@@ -1,0 +1,24 @@
+# Paste into ~/.config/herdr/config.toml (with [theme] name = "terminal"),
+# then run: herdr server reload-config
+
+[theme.custom]
+# BlackWhite Warm: grayscale on black with soft, low-chroma accents (matches Zed + Omarchy black_arch)
+accent = "#CBC4A2"
+panel_bg = "reset"
+sidebar_bg = "#0A0A0A"
+active_row_bg = "#1A1A1A"
+selection_bg = "#262626"
+surface0 = "reset"
+surface1 = "#2E2E2E"
+surface_dim = "#262626"
+overlay0 = "#9A9A9A"
+overlay1 = "#C2C2C2"
+text = "#E8E8E8"
+subtext0 = "#9A9A9A"
+mauve = "#C9A3B6"
+green = "#9DC48A"
+yellow = "#D5D09D"
+red = "#E08080"
+blue = "#9DB2CF"
+teal = "#9EC4BE"
+peach = "#E2C9A8"

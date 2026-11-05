@@ -1,7 +1,7 @@
 # Core UI colors
 accent = "#989898"                 # Neutral accent (derived from color4 / blue)
 cursor = "#FFFFFF"                 # Kitty cursor color
-foreground = "#FFFFFF"             # Primary text color
+foreground = "#DCDCDC"             # Primary text color
 background = "#000000"             # Pure black background
 
 selection_foreground = "#000000"   # Selected text
@@ -13,21 +13,21 @@ selection_background = "#FFFFFF"   # Selection background
 
 # base00–base07 (normal)
 color0  = "#262626"  # base00 - Deep background
-color1  = "#646464"  # base08 - Error / critical
-color2  = "#8E8E8E"  # base0B - Success / positive
-color3  = "#B9B9B9"  # base0A - Warning / attention
-color4  = "#989898"  # base0D - Primary accent
-color5  = "#747474"  # base0E - Secondary accent
-color6  = "#585858"  # base0C - Informational
-color7  = "#D4D4D4"  # base05 - Default foreground
+color1  = "#E08080"  # base08 - Error / critical
+color2  = "#9DC48A"  # base0B - Success / positive
+color3  = "#D5D09D"  # base0A - Warning / attention
+color4  = "#9DB2CF"  # base0D - Primary accent
+color5  = "#C9A3B6"  # base0E - Secondary accent
+color6  = "#9EC4BE"  # base0C - Informational
+color7  = "#DCDCDC"  # base05 - Default foreground
 
 # base08–base0F (bright)
-color8  = "#262626"  # base03 - Dim / inactive
-color9  = "#646464"  # base08 - Bright error
-color10 = "#8E8E8E"  # base0B - Bright success
-color11 = "#B9B9B9"  # base0A - Bright warning
-color12 = "#989898"  # base0D - Bright accent
-color13 = "#747474"  # base0E - Bright secondary
-color14 = "#585858"  # base0C - Bright info
-color15 = "#D4D4D4"  # base07 - High-contrast text
+color8  = "#6E6E6E"  # base03 - Dim / inactive
+color9  = "#EC9A9A"  # base08 - Bright error
+color10 = "#B5D6A3"  # base0B - Bright success
+color11 = "#E6E1B4"  # base0A - Bright warning
+color12 = "#B6C7DE"  # base0D - Bright accent
+color13 = "#DDBCCB"  # base0E - Bright secondary
+color14 = "#B8D6D1"  # base0C - Bright info
+color15 = "#FFFFFF"  # base07 - High-contrast text
 

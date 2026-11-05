@@ -1,7 +1,6 @@
 # ────────────────────────────────────────────────────────────
-# Omarchy black_arch Theme for Alacritty
-# By Ankur
-# https://github.com/ankur311sudo
+# Omarchy black_arch Theme for Alacritty - BlackWhite Warm palette
+# Original theme by Ankur  https://github.com/ankur311sudo
 # ────────────────────────────────────────────────────────────
 
 [window]
@@ -15,8 +14,9 @@ size = 12.0
 
 
 [colors.primary]
-foreground = "#ffffff"
+foreground = "#dcdcdc"
 background = "#000000"
+bright_foreground = "#ffffff"
 
 [colors.selection]
 text = "#000000"
@@ -28,20 +28,20 @@ cursor = "#ffffff"
 
 [colors.normal]
 black   = "#262626"
-red     = "#646464"
-green   = "#8e8e8e"
-yellow  = "#b9b9b9"
-blue    = "#989898"
-magenta = "#747474"
-cyan    = "#585858"
-white   = "#d4d4d4"
+red     = "#e08080"
+green   = "#9dc48a"
+yellow  = "#d5d09d"
+blue    = "#9db2cf"
+magenta = "#c9a3b6"
+cyan    = "#9ec4be"
+white   = "#dcdcdc"
 
 [colors.bright]
-black   = "#262626"
-red     = "#646464"
-green   = "#8e8e8e"
-yellow  = "#b9b9b9"
-blue    = "#989898"
-magenta = "#747474"
-cyan    = "#585858"
-white   = "#d4d4d4"
+black   = "#6e6e6e"
+red     = "#ec9a9a"
+green   = "#b5d6a3"
+yellow  = "#e6e1b4"
+blue    = "#b6c7de"
+magenta = "#ddbccb"
+cyan    = "#b8d6d1"
+white   = "#ffffff"
